@@ -1,0 +1,275 @@
+.right-section {
+    padding: 20px 36px 20px 0;
+}
+
+.right-section .profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+    margin-bottom: 40px;
+}
+
+.right-section .profile .user {
+    display: flex;
+}
+
+.right-section .profile .user .left {
+    display: flex;
+    align-items: center;
+    background: #32323d;
+    padding: 6px;
+    border-radius: 6px 0 0 6px;
+}
+
+.right-section .profile .user .left img {
+    width: 30px;
+    height: 30px;
+}
+
+.right-section .profile .user .right {
+    background-color: #25252d;
+    border-radius: 0 6px 6px 0;
+    padding: 13px;
+    color: #fff;
+}
+
+.right-section .music-player {
+    color: #fff;
+    background-color: #202026;
+    border-radius: 6px;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section .music-player .top-section {
+    padding: 20px;
+    height: 86%;
+}
+
+.right-section .music-player .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.right-section .music-player .song-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+.right-section .music-player .song-info img {
+    width: 280px;
+    height: 220px;
+}
+
+.right-section .music-player .description h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.right-section .music-player .description h5 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.right-section .music-player .description p {
+    color: #919191;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.right-section .music-player .song-info .progress {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.right-section .music-player .song-info .progress p {
+    font-size: 11px;
+}
+
+.right-section .music-player .song-info .progress .active-line {
+    position: relative;
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 30px;
+}
+
+.right-section .music-player .song-info .progress .deactive-line {
+    width: 80px;
+    height: 2px;
+    background-color: #919191;
+    margin-right: 30px;
+}
+
+.right-section .music-player .song-info .progress .active-line::before {
+    content: "";
+    background-color: #25252d;
+    height: 10px;
+    width: 10px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: -6px;
+    left: 120px;
+    border-radius: 50%;
+}
+
+.right-section .music-player .player-actions {
+    background-color: #5773ff;
+    height: 26%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.right-section .music-player .player-actions .buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+
+.right-section .music-player .player-actions .buttons i {
+    font-size: 20px;
+}
+
+.right-section .music-player .player-actions .buttons .play-button {
+    padding: 16px;
+    background-color: #fff;
+    color: #5773ff;
+    border-radius: 18px;
+}
+
+.right-section .music-player .player-actions .lyrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+}
+
+.containerd{
+    height: 400px;
+    background-color: #232931;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.left-info{
+    width: 260px;
+    height: 100%;
+    float: left;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    background: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.03) perspective(200px);
+    cursor: pointer;
+    box-shadow: 0 0 20px -10px rrgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.left-info:hover{
+    transform: scale(1.1) perspective(2500px) rotateY(5deg);
+}
+
+.pic-gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #5c6bc0 10%, #0d47a1 100%);
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+.today-info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.today-weather{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    bottom: 20px;
+    left: 20px;
+}
+
+.today-weather .bx{
+    font-size: 4.6rem;
+}
+
+.weather-temp{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.right-info{
+    float: right;
+    position: relative;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.days-list{
+    display: flex;
+    list-style: none;
+    margin: 10px 35px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+.days-list li{
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.days-list li .bx{
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.days-list li:hover{
+    transform: scale(1.1);
+    background: #fff;
+    color: #222831;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.days-list li .day-temp{
+    margin-top: 6px;
+    font-weight: 700;
+}
+
+.soz{
+    text-align: center;
+    list-style: none;
+    padding: 40px;
+    margin: 40px 1px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}

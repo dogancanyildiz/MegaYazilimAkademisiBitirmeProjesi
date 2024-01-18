@@ -1,0 +1,72 @@
+.headers {
+    background: url(../img/bg.jpeg) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding: 20px 50px 60px;
+    border-radius: 16px;
+}
+
+.headers .category {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.headers .info {
+    text-align: center;
+}
+
+.headers .info .title {
+    margin: 85px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.14);
+    margin-top: 50px;
+    padding: 20px 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.68);
+}
+
+.details .item {
+    color: #ccc;
+}
+
+.details .item .item-text {
+    margin-top: 12px;
+    font-size: 1.5rem;
+}
+
+article {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    line-height: 1.70;
+    color: #fff;
+}
+
+article h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+article p {
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 1.1rem;
+}
+
+article blockquote {
+    margin: 40px 0;
+    background-color: #181818;
+    padding: 30px;
+    border-radius: 16px;
+}

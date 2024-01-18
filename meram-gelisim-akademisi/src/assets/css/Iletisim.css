@@ -1,0 +1,108 @@
+.headers {
+    background: url(../img/bg.jpeg) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding: 20px 50px 60px;
+    border-radius: 16px;
+}
+
+.headers .category {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.headers .info {
+    text-align: center;
+}
+
+.headers .info .title {
+    margin: 85px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.detalis2 {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.14);
+    margin-top: 25px;
+    padding: 20px 100px;
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.68);
+}
+
+.detalis2 .item {
+    color: #ccc;
+}
+
+.boxs {
+    margin-top: 14px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.boxs .box1 {
+    color: #fff;
+    background-color: #202026;
+    padding: 20px;
+    border-radius: 16px;
+    width: 40%;
+}
+
+.maps {
+    background: url(../img/maps.png) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 450px;
+    padding: 20px 50px;
+    border-radius: 16px;
+}
+
+.boxs .items .info img {
+    width: 100%;
+    height: 100%;
+}
+
+.boxs .box1 .header,
+.boxs .box2 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.boxs .box2 .header a {
+    color: #919191;
+    font-size: 12px;
+}
+
+.boxs .box2 {
+    background-color: #202026;
+    padding: 20px;
+    color: #fff;
+    border-radius: 16px;
+    width: 60%;
+}
+
+.text {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+th {
+    text-align: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 5;
+}
+
+span {
+    margin: 10px;
+}
