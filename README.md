@@ -7,6 +7,6 @@ Mega Yazılım Akademisi Programı; Meram Belediyesi, MEGA (Meram Gelişim Akade
 Mega Yazılım Akademisi adına geliştirilen web sitesi, akademi hakkında bilgi vermek, akademiye başvuru yapmak ve iletişime geçmek için kullanılmaktadır. Web sitesi, React.js kütüphanesi kullanılarak geliştirilmiştir.
 
 ## Ekran Görüntüleri
-![Home](/MegaYazilimAkademisiBitirmeProjesi/meram-gelisim-akademisi/src/assets/img/home.png)
-![About](/MegaYazilimAkademisiBitirmeProjesi/meram-gelisim-akademisi/src/assets/img/about.png)
-![Contact](/MegaYazilimAkademisiBitirmeProjesi/meram-gelisim-akademisi/src/assets/img/contact.png)
+![Home](/meram-gelisim-akademisi/src/assets/img/home.png)
+![About](/meram-gelisim-akademisi/src/assets/img/about.png)
+![Contact](/meram-gelisim-akademisi/src/assets/img/contact.png)
